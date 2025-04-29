@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(11, 241, 241);
+    background-color: rgb(15, 184, 184);
     margin: 0;
     font-family: Arial, sans-serif;
     color: #333;
@@ -14,7 +14,7 @@ body {
     border-radius: 10px;
 }
 
-.container img {
+.pofile-img {
     width: 300px;
     height: 300px;
     border-radius: 900%;
@@ -24,7 +24,7 @@ body {
 }
 
 
-.nombre{
+.info{
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -32,37 +32,53 @@ body {
 }
 
 .nombre h1 {
-    margin:0;
     font-size: 28px;
-    
+    margin:0;
 }
 
 .cargo {
     font-size: 18px;
+    font-weight: bold;
     margin: 5px 0;
     color: #555;
 }
-.sobre-mi,.contacto{
-    margin-top: 10px;
-}
-.sobre-mi h2,.contacto h2 {
-    
+.sobre-mi h2 {
     font-size: 20px;
-    color: #21eb061c;
+    color: #4CAF50;
    margin-bottom: 5px;
     
   }
 .sobre-mi p {
-    margin-top: -2px;
-    font-size: 20rem;
-    max-width: 200px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+.contacto {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.contacto h2 {
+    font-size: 20px;
+    color: #4CAF50;
+    margin-bottom: 10px;
 }
 
 .contacto ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .contacto ul li {
-    margin: 5px 0;
-    
+    margin-bottom: 10px;
+    line-height: 1.6;
 }

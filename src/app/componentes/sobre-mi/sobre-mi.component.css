@@ -1,9 +1,12 @@
 .sobre\ Mi {
-  margin-top: 5px;
-  font-size: 1.8px;
-  font-weight: normal;
-  color: #0c0c0ef0;
-  text-align: left;
-  padding: 20px;
-  
+  display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 1.8px;
+    font-weight: normal;
+    color: #0c0c0ef0;
+    text-align: left;
+    padding: 20px;
 }

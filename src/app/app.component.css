@@ -6,11 +6,12 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-center;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    text-align: center;
+    height: 80vh;
+    text-align: left;
+    gap:2rem;
 }
 
 .container img {
@@ -20,4 +21,10 @@ body {
     border: 2px solid #4CAF50;
     object-fit: cover;
     margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin:110px 0 0 0;
 }

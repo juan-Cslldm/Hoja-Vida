@@ -1,0 +1,9 @@
+.contacto ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.contacto li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}

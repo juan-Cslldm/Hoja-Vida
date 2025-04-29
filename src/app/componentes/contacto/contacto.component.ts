@@ -7,8 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ContactoComponent {
   titulo: string = 'Contacto';
-  contenido: string = '';
-  nombre: string = '';
-  email: string = '';
-  Telefono: string = '';
+    contenido: string =' ';
+
+
 }

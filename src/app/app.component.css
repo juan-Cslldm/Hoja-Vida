@@ -23,9 +23,23 @@ body {
     margin-bottom: 20px;
 }
 
-h1 {
+
+.nombre{
+    text-align: left;
+}
+
+.nombre h1 {
+    margin:0;
     font-size: 4rem;
     font-weight: bold;
     text-align: right;
-    margin:0;
+    color: #0c0c0c;
+}
+
+.cargo {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #0c0c0ef0;
+    text-align: left;
 }

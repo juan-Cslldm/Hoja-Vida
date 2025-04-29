@@ -2,13 +2,15 @@ body {
     background-color: rgb(11, 241, 241);
     margin: 0;
     font-family: Arial, sans-serif;
+    color: #333;
 }
 
 .container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     background-color: #00bcbc;
-    padding: 100px;
+    padding: 20px;
+    gap:20px;
     border-radius: 10px;
 }
 
@@ -26,25 +28,41 @@ body {
     margin-left: 20px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .nombre h1 {
     margin:0;
-    font-size: 5rem;
+    font-size: 28px;
     
 }
 
 .cargo {
-    margin:1px 0 -4px;
-    font-size: 1rem;
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
 }
-
-.sobre-mi h2{
-   margin: 2px 0 0px;
-    font-size: 200rem;
+.sobre-mi,.contacto{
+    margin-top: 10px;
+}
+.sobre-mi h2,.contacto h2 {
+    
+    font-size: 20px;
+    color: #21eb061c;
+   margin-bottom: 5px;
+    
   }
 .sobre-mi p {
     margin-top: -2px;
     font-size: 20rem;
     max-width: 200px;
+}
+
+.contacto ul {
+    list-style-type: none;
+}
+
+.contacto ul li {
+    margin: 5px 0;
+    
 }

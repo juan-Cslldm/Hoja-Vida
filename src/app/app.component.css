@@ -6,7 +6,6 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column-center;
     align-items: center;
     justify-content: center;
     height: 80vh;
@@ -49,7 +48,6 @@ body {
 }
 
 .sobre-mi {
-    padding: 30px 20px;
-    max-width: 900px;
-    margin: 0 auto;  
+   margin-top: 30px;
+    padding: 20px;
   }

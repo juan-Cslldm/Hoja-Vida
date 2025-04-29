@@ -2,10 +2,13 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contacto',
-  imports: [],
   templateUrl: './contacto.component.html',
   styleUrl: './contacto.component.css'
 })
 export class ContactoComponent {
-
+  titulo: string = 'Contacto';
+  contenido: string = 'Formulario de contacto';
+  nombre: string = '';
+  email: string = '';
+  Telefono: string = '';
 }

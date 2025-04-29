@@ -29,11 +29,15 @@ body {
 }
 
 .nombre h1 {
+
     margin:0;
     font-size: 4rem;
     font-weight: bold;
     text-align: right;
     color: #0c0c0c;
+}
+.texto-info {
+    margin-top: 50px;
 }
 
 .cargo {

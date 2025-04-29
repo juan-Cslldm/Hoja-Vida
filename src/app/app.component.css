@@ -13,16 +13,17 @@ body {
 }
 
 .container img {
-    width: 250px;
+    width: 300px;
     height: 300px;
-    border-radius: 600%;
+    border-radius: 900%;
     border: 5px solid #4CAF50;
     object-fit: cover;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 
 .nombre{
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
 }

@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-.left-column {
+.right-column {
     display: flex;
     flex-direction: column;
     align-items: center;

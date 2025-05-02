@@ -1,9 +1,27 @@
-.contacto ul {
-  list-style-type: disc;
-  padding-left: 20px;
+.contacto {
+  order: 20;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(8, 164, 184);
+  border-radius: 20px;
+  box-shadow: 125 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
-.contacto li {
-  margin-bottom: 10px;
-  line-height: 1.6;
+.contacto h2 {
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.contacto ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacto ul li {
+  margin-bottom: 15px;
+  line-height: 1;
 }

@@ -7,11 +7,11 @@ body {
 .grip-container {
     display: grid;
     grid-template-areas: 
-    "left-column right-column"
-    "left-column right-column";
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
-    padding: 20px;
+    "left-column left-column"
+    "right-column right-column";
+    grid-template-columns: 10fr 25fr;
+    gap: -10px;
+    padding: -10px;
     
 }
 .left-column {
@@ -20,8 +20,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     gap: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 
 .right-column {
@@ -30,8 +30,8 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 40px;
-    margin-left: 10px;
+    margin-top: 90px;
+    margin-left: 400px;
 }
 
 .pofile-img {
@@ -45,33 +45,6 @@ body {
     
 }
 
-.contacto {
-    order: 20;
-    text-align: center;
-    padding: 5px;
-    background-color: rgb(8, 164, 184);
-    border-radius: 20px;
-    box-shadow: 125 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px; 
-    margin-top: 20px;
-    margin-left: 40px;
-}
-
-.contacto h2 {
-    font-size: 25px;
-    color: #000000;
-    margin-bottom: 8px;
-}
-
-.contacto ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.contacto ul li {
-    margin-bottom: 15px;
-    line-height: 1;
-}
 
 .info{
     grid-area: info;
@@ -87,11 +60,11 @@ body {
     align-items: center;
     text-align: center;
     position: relative;
-    top: -20px;
+    top: -10px;
     left: 0px;
     font-size: 50px;
     font-weight: bold;
-    margin-top: 0px;
+    margin-top: 120px;
     margin-left: 5px;
     margin-bottom: -1.0rem;
 }
@@ -106,58 +79,6 @@ body {
     margin-left: 10px;
 }
 
-.sobre-mi {
-    grid-area: sobre-mi;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
-.sobre-mi h2 {
-    font-size: 50px;
-    font-weight: bold;
-    color: #000000;
-    text-align: center;
-    margin-bottom: 15px;
-    
-  }
-.sobre-mi p {
-    font-size: 35px;
-    font-weight: normal;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #000;
-}
-
-
-.experiencia {
-    grid-area: experiencia;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 30px;
-    margin-left: 20px;
-    padding: 20px;
-}
-
-.experiencia h2 {
-    font-size: 35px;
-    font-weight: bold;
-    color: #000000;
-    margin-bottom: 10px;
-}
-
-.experiencia p {
-    font-size: 20px;
-    line-height: 1.5;
-    color: #000;
-    margin: 0;
-}
 
 .hidden {
     display: none;

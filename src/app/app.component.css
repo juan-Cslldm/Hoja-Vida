@@ -5,10 +5,13 @@ body {
 }
 
 .grip-container {
-    display: flex;
+    display: grid;
     grid-template-areas: 
-    "right-column left-column"
-    "info left-column";
+    "left-column right-column"
+    "left-column right-column";
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
     
 }
 .left-column {
@@ -101,6 +104,16 @@ body {
     margin-bottom: 9px;
     text-align: left;
     margin-left: 10px;
+}
+
+.sobre-mi {
+    grid-area: sobre-mi;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 .sobre-mi h2 {

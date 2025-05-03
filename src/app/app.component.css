@@ -9,8 +9,8 @@ body {
     grid-template-areas: 
     "left-column left-column"
     "right-column right-column";
-    grid-template-columns: 10fr 25fr;
-    gap: -10px;
+    grid-template-columns: 15fr 55fr;
+    gap: 60px;
     padding: -10px;
     
 }
@@ -20,8 +20,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     gap: 0px;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
 }
 
 .right-column {
@@ -30,8 +30,8 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -100px;
-    margin-left: 400px;
+    margin-top: -800px;
+    margin-left: -20px;
 }
 
 .pofile-img {
@@ -41,7 +41,7 @@ body {
     border: 5px solid #10e410;
     object-fit: cover;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 200px;
     
 }
 
@@ -61,10 +61,10 @@ body {
     text-align: center;
     position: relative;
     top: -10px;
-    left: -4.9px;
-    font-size: 60px;
+    left: -6.9px;
+    font-size: 40px;
     font-weight: bold;
-    margin-top: 130px;
+    margin-top: 120px;
     margin-left: 5px;
     margin-bottom: -1.0rem;
 }
@@ -86,7 +86,10 @@ body {
    line-height: 1.6;
 }
 
-
+info, .sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
+    margin-bottom: 10px;
+ }
+ 
 
 
 

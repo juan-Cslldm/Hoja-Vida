@@ -12,7 +12,6 @@ body {
     grid-template-columns: 15fr 55fr;
     gap: 60px;
     padding: -10px;
-    
 }
 .left-column {
     grid-area: left-column;
@@ -44,7 +43,6 @@ body {
     margin-left: 200px;
     
 }
-
 
 .info{
     grid-area: info;
@@ -88,13 +86,8 @@ body {
 
 info, .sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
     margin-bottom: 10px;
- }
+}
  
-
-
-
-
-
 .hidden {
     display: none;
 }

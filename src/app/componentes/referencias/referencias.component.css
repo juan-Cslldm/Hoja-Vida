@@ -1,20 +1,15 @@
 .referencias {
     display: flex;
-    order: 20;
-    text-align: center;
-    padding: 5px;
-    background-color: rgb(8, 164, 184);
-    border-radius: 20px;
-    box-shadow: 125 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px; 
-    margin-top: 20px;
-    margin-left: 40px;
+    max-width: 600;
+    text-align: justify;
+    margin: 0 auto;
+    line-height: 1.6;
   }
   
   .referencias h2 {
-    font-size: 25px;
+    font-size: 10px;
     color: #000000;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
   }
   
   .referencias ul {
@@ -23,6 +18,6 @@
   }
   
   .referencias ul li {
-    margin-bottom: 15px;
-    line-height: 1;
+    margin-bottom: 10px;
+    line-height: 2.6;
   }

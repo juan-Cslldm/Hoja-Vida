@@ -1,19 +1,15 @@
 .contacto {
-  order: 20;
-  text-align: center;
-  padding: 5px;
-  background-color: rgb(8, 164, 184);
-  border-radius: 20px;
-  box-shadow: 125 4px 6px rgba(0, 0, 0, 0.1);
-  width: 300px; 
-  margin-top: 20px;
-  margin-left: 40px;
+  max-width: 1000px;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .contacto h2 {
   font-size: 25px;
   color: #000000;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .contacto ul {
@@ -24,4 +20,5 @@
 .contacto ul li {
   margin-bottom: 15px;
   line-height: 1;
+  font-size: 18px;
 }

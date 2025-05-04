@@ -1,23 +1,20 @@
 .referencias {
-    max-width: 600;
+    max-width: 100;
     text-align: justify;
-    margin: 0 auto;
-    line-height: 1.6;
+    margin: 10 auto;
+    line-height: 2.6;
   }
   
   .referencias h2 {
-    font-size: 24px;
-    color: #000000;
-    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight:bold ;
+    margin-bottom: 25px;
+    text-align: left;
   }
   
-  .referencias ul {
-    list-style-type: none;
-    padding: 0;
+  .referencias p {
+   font-size: 8px;
+    margin-bottom: 5px;
   }
   
-  .referencias ul li {
-    margin-bottom: 10px;
-    line-height: 2.6;
-    font-size: 20px;
-  }
+ 

@@ -9,9 +9,6 @@ body {
     grid-template-areas: 
     "left-column left-column"
     "right-column right-column";
-    grid-template-columns: 15fr 55fr;
-    gap: 60px;
-    padding: -10px;
 }
 .left-column {
     grid-area: left-column;
@@ -19,8 +16,11 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     gap: 0px;
-    margin-top: 60px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 300px;
+    max-width: 325px;
+    text-align: justify;
+    line-height: 2.6;
 }
 
 .right-column {
@@ -29,8 +29,10 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -800px;
-    margin-left: -20px;
+    margin-top: -1212px;
+    margin-left: -100px;
+    max-width: 7000px;
+    text-align: justify;
 }
 
 .pofile-img {
@@ -40,7 +42,7 @@ body {
     border: 5px solid #10e410;
     object-fit: cover;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 0px;
     
 }
 

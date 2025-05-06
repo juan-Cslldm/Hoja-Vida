@@ -33,6 +33,7 @@ body {
     margin-left: -100px;
     max-width: 7000px;
     text-align: justify;
+    
 }
 
 .pofile-img {
@@ -80,14 +81,27 @@ body {
 }
 
 .info, .sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
-   max-width: 600px;
+   max-width: 500px;
    margin: 0 auto;
    text-align: justify;
-   line-height: 1.6;
+   line-height: 1.5;
 }
 
-info, .sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
-    margin-bottom: 10px;
+.info, .sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
+    margin-bottom: -3px;
+}
+
+.contacto .referencias .sitios-web {
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.referencias p, .contacto ul li,  .sitios-web a {
+    margin-bottom: 0px;
+    font-size: 16px;
+
 }
  
 .hidden {

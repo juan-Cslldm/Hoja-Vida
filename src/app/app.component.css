@@ -17,7 +17,7 @@ body {
     justify-content: flex-start;
     gap: 0px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 300px;
     max-width: 325px;
     text-align: justify;
     line-height: 2.6;
@@ -29,9 +29,9 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -1212px;
+    margin-top: -1215px;
     margin-left: -100px;
-    max-width: 5000px;
+    max-width: 2000px;
     text-align: justify;
     
 }

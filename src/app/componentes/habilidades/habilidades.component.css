@@ -17,8 +17,8 @@
 }
 
 .habilidades p {
-    font-size: 10px;
-    line-height: 3.5;
+    font-size: 0px;
+    line-height: 0;
     color: #000;
-    margin: 10;
+    margin: 0;
 }

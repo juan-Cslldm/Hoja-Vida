@@ -94,12 +94,12 @@ body {
     max-width: 10px;
     margin: 0;
     text-align: left;
-    line-height:1.8;
+    line-height: 2.8;
 }
 
 .referencias p, .contacto ul ,  .sitios-web a {
-    margin-bottom:20px;
-    font-size: 16px;
+    margin-bottom:30px;
+    font-size: 10px;
     text-align: left;
     line-height: 1.6;
 }
@@ -111,20 +111,26 @@ i {
     font-size: 16px;
 }
 
+.sitios-web {
+    max-width: 300px;
+    margin: 0;
+    text-align: left;
+}
 .sitios-web a {
-    color: #10e410;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #07f01b;
     text-decoration: none;
 }
 .sitios-web a:hover {
-    color: #07f01b;
-   
+    color: #000;
 }
-
 .contacto ul{
     list-style: none;
     padding: 10px;
     margin: 0;
-    max-width: 210px;
+    max-width: 300px;
 }
   
 .contacto ul li{
@@ -136,15 +142,15 @@ i {
 }
   
 .contacto ul li i{
-    margin-right: 20px;
-    font-size: 15px;
+    margin-right: 10px;
+    font-size: 18px;
 }
 
  
 .referencias {
-    max-width: 100;
+    max-width: 200;
     margin: 0;
-    text-align: left;
+    text-align: justify;
 }
     
 .referencias h2 {

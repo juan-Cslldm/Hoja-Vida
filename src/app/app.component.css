@@ -91,10 +91,10 @@ body {
 }
 
 .contacto .referencias .sitios-web {
-    max-width: 500px;
+    max-width: 90px;
     margin: 0;
-    text-align: justify;
-    line-height: 2.5;
+    text-align: center;
+    line-height:1.8;
 }
 
 .referencias p, .contacto ul ,  .sitios-web a {

@@ -122,9 +122,10 @@ i {
 
 .contacto ul {
     list-style: none;
-    padding: 14px;
+    padding: 0px;
     margin: 0;
-  }
+    max-width: 210px;
+}
 
  
 .hidden {

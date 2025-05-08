@@ -17,10 +17,10 @@ body {
     justify-content: flex-start;
     gap: 0px;
     margin-top: 0px;
-    margin-left: 300px;
+    margin-left: 260px;
     max-width: 160px;
-    text-align: justify;
-    line-height: 1.6;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .right-column {
@@ -29,10 +29,10 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -1290px;
-    margin-left: -80px;
+    margin-top: -1280px;
+    margin-left: -60px;
     max-width: 3000px;
-    text-align: justify;
+    text-align: left;
 }
 
 .pofile-img {
@@ -50,8 +50,8 @@ body {
     grid-area: info;
     display: flex;
     flex-direction: column;
-    margin-top: -700px;
-    margin-bottom: 500px;
+    margin-top: -800px;
+    margin-bottom: 600px;
 }
 
 .nombre h1 {
@@ -72,7 +72,7 @@ body {
 .cargo {
     font-size: 30px;
     font-weight: bold;
-    margin-top: -10px;
+    margin-top: -20px;
     color: #000000;
     margin-bottom: 0px;
     text-align: left;
@@ -80,9 +80,9 @@ body {
 }
 
 .info, .sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
-   max-width: 500px;
+   max-width: 600px;
    margin: 0 auto;
-   text-align: justify;
+   text-align: left;
    line-height: 1.9;
 }
 
@@ -91,22 +91,24 @@ body {
 }
 
 .contacto .referencias .sitios-web {
-    max-width: 90px;
+    max-width: 10px;
     margin: 0;
-    text-align: center;
+    text-align: left;
     line-height:1.8;
 }
 
 .referencias p, .contacto ul ,  .sitios-web a {
-    margin-bottom: 10px;
+    margin-bottom:20px;
     font-size: 16px;
+    text-align: left;
+    line-height: 1.6;
 }
 
 
 i {
     color: #000000;
-    margin-right: 10px;
-    font-size: 20px;
+    margin-right: 0px;
+    font-size: 16px;
 }
 
 .sitios-web a {
@@ -120,7 +122,7 @@ i {
 
 .contacto ul {
     list-style: none;
-    padding: 0;
+    padding: 14px;
     margin: 0;
   }
 

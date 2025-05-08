@@ -1,20 +1,20 @@
 .contacto {
   max-width: 0px;
-  text-align: left;
+  text-align: right;
   margin: 0 ;
-  line-height: 1.6;
+  line-height: 1.0;
 }
 
 .contacto h2 {
-  font-size: 15px;
+  font-size: 10px;
   color: #000000;
-  margin-bottom:-9px;
+  margin-bottom:10px;
   text-align: right;
 }
 
-.contacto ul {
+.contacto p{
   list-style: none;
-  padding: 0;
+  padding: 0px;
   margin: 0;
 }
 

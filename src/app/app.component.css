@@ -17,8 +17,8 @@ body {
     justify-content: flex-start;
     gap: 0px;
     margin-top: 0px;
-    margin-left: 260px;
-    max-width: 160px;
+    margin-left: 250px;
+    max-width: 200px;
     text-align: left;
     line-height: 1.5;
 }
@@ -29,8 +29,8 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -1280px;
-    margin-left: -60px;
+    margin-top: -1270px;
+    margin-left: -50px;
     max-width: 3000px;
     text-align: left;
 }
@@ -50,8 +50,8 @@ body {
     grid-area: info;
     display: flex;
     flex-direction: column;
-    margin-top: -800px;
-    margin-bottom: 600px;
+    margin-top: -900px;
+    margin-bottom: 700px;
 }
 
 .nombre h1 {
@@ -120,14 +120,49 @@ i {
    
 }
 
-.contacto ul {
+.contacto ul{
     list-style: none;
-    padding: 0px;
+    padding: 10px;
     margin: 0;
     max-width: 210px;
 }
+  
+.contacto ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+.contacto ul li i{
+    margin-right: 20px;
+    font-size: 15px;
+}
 
  
+.referencias {
+    max-width: 100;
+    margin: 0;
+    text-align: left;
+}
+    
+.referencias h2 {
+    font-size: 25px;
+    font-weight:bold ;
+    margin-bottom: 140px;
+    text-align: left;
+}
+    
+.referencias p {
+   line-height: 1.0;
+   margin: 2 5 10px 0;
+   font-size: 16px;
+   color: #000;
+}
+
+
+
 .hidden {
     display: none;
 }

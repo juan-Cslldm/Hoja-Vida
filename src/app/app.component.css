@@ -15,10 +15,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 0px;
-    margin-top: 0px;
-    margin-left: 240px;
-    max-width: 140px;
+    gap: -50px;
+    margin-top: 10px;
+    margin-left: 260px;
+    max-width: 145px;
     text-align: left;
     line-height: 1.5;
 }
@@ -29,9 +29,9 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -1275px;
-    margin-left: -10px;
-    max-width: 3000px;
+    margin-top: -1285px;
+    margin-left: -20px;
+    max-width: 4000px;
     text-align: left;
 }
 
@@ -42,7 +42,7 @@ body {
     border: 10px solid #10e410;
     object-fit: cover;
     margin-top: 50px;
-    margin-left: -80px;
+    margin-left: -100px;
     
 }
 
@@ -50,8 +50,8 @@ body {
     grid-area: info;
     display: flex;
     flex-direction: column;
-    margin-top: -900px;
-    margin-bottom: 700px;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .nombre h1 {
@@ -60,138 +60,158 @@ body {
     align-items: center;
     text-align: center;
     position: relative;
-    top: -10px;
-    left: -6.9px;
-    font-size: 40px;
+    top: -35px;
+    left: 400px;
+    font-size: 50px;
     font-weight: bold;
-    margin-top: 120px;
-    margin-left: 5px;
-    margin-bottom: -1.0rem;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: -2.0rem;
 }
 
 .cargo {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    margin-top: -20px;
+    margin-top: -10px;
     color: #000000;
-    margin-bottom: 0px;
+    margin-bottom: 4.0rem;
     text-align: left;
-    margin-left: -0px;
+    margin-left: 450px;
+    
+}
+
+.sobre-mi {
+    grid-area: sobre-mi;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    left: 10px;
+}
+
+.sobre-mi h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.sobre-mi p {
+    font-size: 20px;
+    line-height: 2.5;
+    color: #000;
+    margin: 0;
 }
 
 .experiencia {
     grid-area: experiencia;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
     padding: 20px;
 }
 
 .experiencia h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     color: #000000;
     margin-bottom: 10px;
 }
 
 .experiencia p {
-    font-size: 10px;
+    font-size: 20px;
     line-height: 1.5;
     color: #000;
     margin: 0;
 }
 
-.info, .sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
-   max-width: 600px;
+.sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
+   max-width: 310px;
    margin: 0 auto;
    text-align: left;
-   line-height: 1.9;
+   line-height: 2.6;
 }
 
-.info, .sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
-    margin-bottom: -10px;
+.sobre-mi, .experiencia, .educacion, .habilidades, .idiomas {
+    margin-bottom: 30px;
 }
 
 .contacto .referencias .sitios-web {
     max-width: 10px;
-    margin: 0;
+    margin: 10;
     text-align: left;
-    line-height: 2.8;
+    line-height: 1.0;
 }
 
 .referencias p, .contacto ul ,  .sitios-web a {
-    margin-bottom:30px;
+    margin-bottom:10px;
     font-size: 10px;
     text-align: left;
-    line-height: 1.6;
-}
-
-
-i {
-    color: #000000;
-    margin-right: 0px;
-    font-size: 16px;
+    line-height: 1.0;
 }
 
 .contacto {
-  max-width: 0px;
-  text-align: right;
-  margin: 0 ;
+  max-width: 10px;
+  text-align: left;
+  margin:0 ;
   line-height: 1.0;
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
 
 .contacto h2 {
-  font-size: 10px;
+  font-size: 30px;
   color: #000000;
-  margin-bottom:10px;
-  text-align: right;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: -10px;
 }
 
 .contacto ul{
     list-style: none;
     padding: 0;
     margin: 0 auto;
-    max-width: 300px;
+    max-width: max-content;
 }
 
-  
 .contacto ul li{
     display: flex;
     align-items: left;
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
   
 .contacto ul li i{
-    margin-right: 10px;
-    font-size: 18px;
+    margin-right: 20px;
+    font-size: 28px;
 }
 
  
 .referencias {
-    max-width: 600;
-    margin: 0 auto;
+    max-width: 100;
+    margin: 5 auto;
     text-align: justify;
     margin-left: -20px;
 }
     
 .referencias h2 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight:bold ;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: left;
 }
     
 .referencias p {
-   line-height: 1.5;
-   margin: 0 10 15px 0;
-   font-size: 16px;
+   line-height: 25px;
+   margin: 0 0 10px 0;
+   font-size: 20px;
    color: #000;
 }
 
@@ -199,11 +219,11 @@ i {
     grid-area: educacion;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: flex-start;
-    margin-top: 30px;
-    margin-left: 20px;
-    padding: 20px;
+    margin-top: -80px;
+    margin-left: 600px;
+    padding: 10px;
 }
 
 .educacion h2 {
@@ -217,27 +237,28 @@ i {
     font-size: 20px;
     line-height: 1.5;
     color: #000;
-    margin: 0;
+    margin: -10px;
+    margin-bottom: -30px;
 }
 
 .Idiomas {
-    max-width: 600px;
+    max-width: 100px;
     text-align: justify;
-    margin: 0 auto;
-    line-height: 1.0;
+    margin: 10 auto;
+    line-height: 2.0;
     text-align: left;
 }
 
 .Idiomas h2 {
-    font-size: 24px;
+    font-size: -10px;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-align: left;
 }
 
 .Idiomas p {
-    font-size: 28px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
     text-align: left;
 }
 
@@ -245,26 +266,32 @@ i {
     max-width: 0px;
     margin: 0;
     text-align: left;
-    margin-left: -20px;
+    margin-left: 10px;
 }
 
 .sitios-web a {
     display: flex;
     align-items: left;
-    margin-bottom: 0px;
-    font-size: 0px;
+    margin-bottom: 10px;
+    font-size: 10px;
     color: #07f01b;
     text-decoration:navy;
 }
 
 .sitios-web a i{
-    margin-right: 0;
-    font-size: 0;
+    margin-right: 10;
+    font-size: 10;
     color: #000000;
 }
 
 .sitios-web a:hover {
     color: #0a06ee;
+}
+
+i {
+    color: #0d0c0e;
+    margin-right: 10px;
+    font-size: 20px;
 }
 
 .hidden {

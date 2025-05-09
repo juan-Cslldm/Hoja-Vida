@@ -15,10 +15,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: -50px;
+    gap: 0px;
     margin-top: 10px;
-    margin-left: 260px;
-    max-width: 145px;
+    margin-left: 250px;
+    max-width: 270px;
     text-align: left;
     line-height: 1.5;
 }
@@ -29,9 +29,9 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -1285px;
-    margin-left: -20px;
-    max-width: 4000px;
+    margin-top: -1295px;
+    margin-left: 0px;
+    max-width: 3000px;
     text-align: left;
 }
 
@@ -43,15 +43,6 @@ body {
     object-fit: cover;
     margin-top: 50px;
     margin-left: -100px;
-    
-}
-
-.info{
-    grid-area: info;
-    display: flex;
-    flex-direction: column;
-    margin-top: -10px;
-    margin-bottom: 10px;
 }
 
 .nombre h1 {

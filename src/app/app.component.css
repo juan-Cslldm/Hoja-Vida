@@ -29,8 +29,8 @@ body {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -1270px;
-    margin-left: -50px;
+    margin-top: -1275px;
+    margin-left: -10px;
     max-width: 3000px;
     text-align: left;
 }
@@ -111,32 +111,17 @@ i {
     font-size: 16px;
 }
 
-.sitios-web {
-    max-width: 300px;
-    margin: 0;
-    text-align: left;
-}
-.sitios-web a {
-    display: block;
-    margin-bottom: 20px;
-    font-size: 26px;
-    color: #07f01b;
-    text-decoration: none;
-}
-.sitios-web a:hover {
-    color: #000;
-}
 .contacto ul{
     list-style: none;
-    padding: 10px;
-    margin: 0;
+    padding: 0;
+    margin: 0 auto;
     max-width: 300px;
 }
   
 .contacto ul li{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -148,26 +133,50 @@ i {
 
  
 .referencias {
-    max-width: 200;
-    margin: 0;
+    max-width: 600;
+    margin: 0 auto;
     text-align: justify;
 }
     
 .referencias h2 {
     font-size: 25px;
     font-weight:bold ;
-    margin-bottom: 140px;
+    margin-bottom: 20px;
     text-align: left;
 }
     
 .referencias p {
-   line-height: 1.0;
-   margin: 2 5 10px 0;
+   line-height: 1.8;
+   margin: 0 10 15px 0;
    font-size: 16px;
    color: #000;
 }
 
 
+
+.sitios-web {
+    max-width: 400px;
+    margin: 10;
+    text-align: left;
+}
+.sitios-web a {
+    display: flex;
+    align-items: center;
+    margin-bottom: -30px;
+    font-size: 16px;
+    color: #07f01b;
+    text-decoration: none;
+}
+
+.sitios-web a i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.sitios-web a:hover {
+    color: #0a06ee;
+}
 
 .hidden {
     display: none;

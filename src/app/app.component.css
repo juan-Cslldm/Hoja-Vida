@@ -70,7 +70,7 @@ body {
     
 }
 
-.sobre-mi {
+.right-column .sobre-mi {
     grid-area: sobre-mi;
     display: flex;
     flex-direction: column;
@@ -79,14 +79,13 @@ body {
 }
 
 .sobre-mi h2 {
-    font-size: 10px;
     font-weight: bold;
     color: #000000;
-    margin-bottom: 20px;
+    
 }
 
 .sobre-mi p {
-    font-size: 10px;
+    font-size: 100px;
     line-height: 1.5;
     color: #000;
     margin: 10;

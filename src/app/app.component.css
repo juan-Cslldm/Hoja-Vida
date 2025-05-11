@@ -28,7 +28,7 @@ body {
     justify-content: flex-start;
     gap: 0px;
     margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 150px;
     max-width: 0px;
     text-align: left;
     line-height: 1.0;
@@ -89,8 +89,8 @@ body {
 }
 
 .sobre-mi p {
-    font-size: 20px;
-    line-height: 1.0;
+   font-size: 20px;
+    line-height: 1.5;
     color: #000;
     margin: 10;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .experiencia p {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
     color: #000;
     margin: 10;
@@ -124,32 +124,32 @@ body {
     grid-area: educacion;
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content: left;
     align-items: flex-start;
-    margin-top: -10px;
-    margin-left: 10px;
-    padding: 10px;
+    margin-top: -40px;
+    margin-left: 0px;
+    padding: -10px;
 }
 
 .educacion h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     color: #000000;
     margin-bottom: 20px;
 }
 
 .educacion p {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
     color: #000;
-    margin: -10px;
-    margin-bottom: 10px;
+    margin: 0px;
+    margin-bottom: 40px;
 }
 
 .habilidades {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
     margin-top: -50px;
     margin-left: -35px;
@@ -157,14 +157,14 @@ body {
 }
 
 .habilidades h2 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: #000000;
     margin-bottom: 20px;
 }
 
 .habilidades p {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
     text-align: justify;
     color: #000;
@@ -172,7 +172,7 @@ body {
 }
 
 .Idiomas {
-    max-width: 10px;
+    max-width: 20px;
     text-align: justify;
     margin: 0 auto;
     line-height: 2.0;
@@ -180,9 +180,9 @@ body {
 }
 
 .Idiomas h2 {
-    font-size: -10px;
+    font-size: 30px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: left;
 }
 
@@ -195,7 +195,8 @@ body {
 .contacto {
   max-width:none;
   text-align: left;
-  margin:0 ;
+  margin: 0 auto;
+  margin-top: 60px;
   line-height: 1.0;
   margin-left: -10px;
 }
@@ -203,7 +204,7 @@ body {
 .contacto h2 {
   font-size: 30px;
   color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: left;
   margin-left: -10px;
 }
@@ -211,20 +212,20 @@ body {
 .contacto ul{
     list-style: none;
     padding: 0;
-    margin: 0 auto;
+    margin: 10 auto;
     max-width: max-content;
 }
 
 .contacto ul li{
     display: flex;
     align-items: right;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: 20px;
     line-height: 1.0;
 }
   
 .contacto ul li i{
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 28px;
 }
 
@@ -236,24 +237,24 @@ body {
 }
     
 .referencias h2 {
-    font-size: 30px;
+    font-size: 10px;
     font-weight:bold ;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: left;
 }
     
 .referencias p {
-   line-height: 10px;
+   line-height: 20px;
    margin: 0 0 0px 0;
-   font-size: 10px;
+   font-size: 20px;
    color: #000;
 }
 
 .referencias {
-    max-width: 150px;
-    margin: 5 auto;
+    max-width: 300px;
+    margin: 0 auto;
     text-align: justify;
-    margin-left: -10px;
+    margin-left: -20px;
 }
     
 .referencias h2 {
@@ -264,9 +265,9 @@ body {
 }
     
 .referencias p {
-   line-height: 25px;
+   line-height: 20px;
    margin: 0 0 0px 0;
-   font-size: 20px;
+   font-size: 10px;
    color: #000;
 }
 

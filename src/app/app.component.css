@@ -11,11 +11,6 @@ body {
     "right-column right-column";
 }
 
-.sobre-mi {
-    grid-area: sobre-mi;
-}
-
-
 .pofile-img {
     width: 400px;
     height: 400px;
@@ -31,12 +26,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 0px;
     margin-top: 10px;
-    margin-left: 250px;
-    max-width: 90px;
+    margin-left: 200px;
+    max-width: 0px;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.0;
 }
 
 .right-column {
@@ -45,10 +40,10 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: -1200px;
-    margin-left: 800px;
+    margin-left: 700px;
     margin-right: 0px;
     margin-bottom: 0px;
-    max-width: 550px;
+    max-width: 600px;
 }
 
 .nombre h1 {
@@ -67,34 +62,35 @@ body {
 .cargo {
     font-size: 30px;
     font-weight: rgb(8, 8, 8);
-    margin-top: -50px;
+    margin-top: -40px;
     color: #080808;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     text-align: left;
     margin-left: -15px;
     
 }
 
-.right-column .sobre-mi {
+.sobre-mi {
     grid-area: sobre-mi;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content: left;
     align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
 }
 
-.sobre-mi{
-  background-color:rgb(0, 0, 0);
-  color:white;
-}
 .sobre-mi h2 {
+    font-size: 30px;
     font-weight: bold;
     color: #000000;
+    margin-bottom: 0px;
 }
 
 .sobre-mi p {
-    font-size: 10px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.0;
     color: #000;
     margin: 10;
 }
@@ -105,9 +101,9 @@ body {
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
-    margin-top: -30px;
+    margin-top: -10px;
     margin-left: -40px;
-    padding: 40px;
+    padding: 30px;
 }
 
 .experiencia h2 {

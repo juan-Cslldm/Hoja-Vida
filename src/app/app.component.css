@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     gap: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 150px;
     max-width: 0px;
     text-align: left;
@@ -40,10 +40,10 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: -1100px;
-    margin-left: 700px;
-    margin-right: 0px;
+    margin-left: 800px;
+    margin-right: 10px;
     margin-bottom: 0px;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .nombre h1 {
@@ -71,28 +71,36 @@ body {
 }
 
 .sobre-mi {
-    grid-area: sobre-mi;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 10px;
+    position: relative;
+    text-align: right;
+    top: 20px;
+    left: 20;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 6dvh;
+    padding-top: 30px;
+    padding-left: 50px;
+    
 }
 
 .sobre-mi h2 {
     font-size: 30px;
     font-weight: bold;
     color: #000000;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .sobre-mi p {
    font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.9;
     color: #000;
-    margin: 10;
+    margin: 0;
 }
 
 .experiencia {

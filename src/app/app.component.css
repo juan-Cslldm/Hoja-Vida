@@ -40,9 +40,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: -1100px;
-    margin-left: 800px;
-    margin-right: 10px;
-    margin-bottom: 0px;
+    margin-left: 900px;
     max-width: 500px;
 }
 
@@ -67,9 +65,7 @@ body {
     margin-bottom: 10px;
     text-align: left;
     margin-left: -15px;
-    
 }
-
 .sobre-mi {
     display: flex;
     flex-direction: column;
@@ -77,28 +73,27 @@ body {
     align-items: flex-start;
     position: relative;
     text-align: right;
-    top: 20px;
-    left: 20;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    max-width: 6dvh;
-    padding-top: 30px;
-    padding-left: 50px;
-    
+    top: 10px;
+    left: 10;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .sobre-mi h2 {
-    font-size: 30px;
+    font-size: 10px;
     font-weight: bold;
     color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .sobre-mi p {
-   font-size: 20px;
-    line-height: 1.9;
+   font-size: 10px;
+    line-height: 1.0;
     color: #000;
     margin: 0;
 }
